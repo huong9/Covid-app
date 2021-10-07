@@ -1,0 +1,10 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+.form {
+  width: 500px;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  top: 35%;
+  transform: translate(-50%, -50%);
+}
