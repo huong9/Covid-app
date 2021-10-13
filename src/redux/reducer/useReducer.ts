@@ -1,13 +1,12 @@
 import { Action } from 'redux';
 import { RootState } from '../../types/rootState.type';
-import { LOG_OUT, REJECT_LOG_IN, SET_USER } from '../actionType';
+import { LOG_OUT, SET_USER } from '../actionType';
 
 const initialValue: RootState = {
   user: null,
-  errorLogin: false,
 };
 interface UserAction extends Action {
-  payload: any;
+  acc: any;
 }
 
 export function userReducer(
@@ -16,13 +15,10 @@ export function userReducer(
 ) {
   switch (action.type) {
     case SET_USER:
-      return { ...state, user: action.payload, errorLogin: false };
+      return { ...state, user: action.acc };
 
     case LOG_OUT:
-      return { ...state, user: null, errorLogin: false };
-
-    case REJECT_LOG_IN:
-      return { ...state, user: null, errorLogin: true };
+      return { ...state, user: null };
     default:
       return state;
   }

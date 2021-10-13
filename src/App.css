@@ -8,3 +8,61 @@
   top: 35%;
   transform: translate(-50%, -50%);
 }
+.container {
+  border: 1px solid black;
+  margin-top: 5px;
+}
+.dashboard {
+  border: 1px solid black;
+  margin-top: 5px;
+}
+.data {
+  border: 1px solid black;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  padding: 25px;
+}
+.worldwide {
+  justify-content: space-around;
+}
+.comfirmed {
+  border: 1 solid black;
+  background-color: rgb(103, 61, 179);
+  border-radius: 5px;
+  text-align: center;
+  width: 120px;
+  margin-top: 5px;
+  color: white;
+  padding: 5px;
+}
+.deaths {
+  border: 1 solid black;
+  background-color: rgb(26, 150, 133);
+  border-radius: 5px;
+  text-align: center;
+  width: 120px;
+  margin-top: 5px;
+  color: white;
+  padding: 5px;
+}
+.recovered {
+  border: 1 solid black;
+  background-color: rgb(225, 91, 137);
+  border-radius: 5px;
+  text-align: center;
+  width: 120px;
+  margin-top: 5px;
+  color: white;
+  padding: 5px;
+}
+.fatality {
+  border: 1 solid black;
+  background-color: rgb(197, 22, 94);
+  border-radius: 5px;
+  text-align: center;
+  width: 120px;
+  margin-top: 5px;
+  color: white;
+  padding: 5px;
+}
